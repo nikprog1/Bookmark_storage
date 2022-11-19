@@ -1,7 +1,7 @@
 # Хранение закладок
 Хранение закладок на сайте в виде скриншотов
 
-Язык: PHP, JavaScript, CSS
+Язык: PHP, JavaScript, CSS, SQL(MySQL)
 
 Фреймворк: Bootstrap
 
