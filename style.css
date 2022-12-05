@@ -1,0 +1,150 @@
+<pre lang="css" line="1">
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz|Arimo);
+body 
+{
+	background-color:#CD5C5C;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	color:#333;
+	margin:0;
+	padding:0;
+
+}
+#background
+{
+background: url(image/background.jpeg);
+background-size:100%;
+}
+
+
+h1, h2, h3, h4, h5, h6 
+{
+font-family:'Arimo',sans-serif
+}
+
+#wrapper 
+{
+	border-radius: 15px;
+	width:1000px;
+
+	background-color:#7B68EE;
+    margin:0 auto;
+	margin-top: 10%;
+	border-top:1px solid #ccc;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+
+#header 
+{
+	width:1000px;
+	height:90px;
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+	text-align: center;
+}
+
+#header h2 
+{
+	padding:31px;
+	margin-top:-1px;
+}
+
+#nav 
+{
+	width:1000px;
+	height:40px;
+	border-bottom:1px solid #ccc;
+}
+
+#nav a 
+{
+	display:inline;
+	padding:10px;
+	text-decoration:none;
+	background-color:#f1f1f1;
+}
+
+#nav a:hover 
+{
+	background-color:#bababa;
+	height:80px;
+}
+
+#content 
+{
+display:flex;
+padding:5px;
+}
+
+#content_shots
+{
+display:flex;
+align-items: center;
+justify-content: center;
+padding:5px;
+}
+
+#center
+{
+text-align::center;
+padding:5px;
+}
+
+.shot  {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#sidebar 
+{
+	width:200px;
+	float:right;
+	margin-bottom:25px;
+}
+
+#sidebar a 
+{
+	text-decoration:none;
+}
+
+#sidebar li 
+{
+	list-style:none;
+}
+
+#footer 
+{
+	clear:both;
+	width:1000px;
+	height:180px;
+	border-top:1px solid #ccc;
+	text-align: center;
+}
+
+#footer p 
+{
+	padding:10px;
+}
+
+.flexshot
+{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 5px;
+}
+
+
+.group
+{
+grid-column-start:1;
+grid-column-end:4;
+}
+
+#AJAX
+{
+margin-bottom:10px;
+} 
